@@ -134,6 +134,26 @@ while askingWhy {
     askingWhy = false
 }
 
+var isScoring = true
+
+let badScore = 7
+
+print("Score this Tracker out of 10")
+
+while isScoring {
+    
+    if let scoreInput = readLine(),
+    let score: Int = Int(scoreInput){
+    if score >= badScore {
+        print("Thanks!")
+    } else {
+        print("Ok thanks for the responsee")
+    }
+    } else {
+        print("Ok, but I dont think thats an integer")
+    }
+}
+
         
 
         }
