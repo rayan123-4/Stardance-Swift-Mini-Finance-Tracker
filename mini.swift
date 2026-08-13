@@ -154,9 +154,11 @@ while isScoring {
     }
 }
 
+print("This is the end of the Mini Finance Tracker on Swift")
+print("Hope you enjoyed!")
         
 
         }
         }
 
-        // Note: work did on Aug 5, but on different sofware.
+        // Note: work did on Aug 5, but on different sofware. I edited it a bit today on github and off.
